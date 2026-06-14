@@ -5,15 +5,15 @@ load_dotenv(".env")
 
 MAX_BOT = int(os.getenv("MAX_BOT", "100"))
 
-DEVS = list(map(int, os.getenv("DEVS", "1221179170").split()))
+DEVS = list(map(int, os.getenv("DEVS", "7879370524").split()))
 
 API_ID = int(os.getenv("API_ID", "25486992"))
 
 API_HASH = os.getenv("API_HASH", "f3da3fe731705a5d72f8dce6c79c01b5")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7674395972:AAF17Pp7dMjcdTeLbWVSqHpXxhleDfKjaUM")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8908272948:AAEoHVh4wL_zj2eIt71Z5CSgnuVjO39Ags8")
 
-OWNER_ID = int(os.getenv("OWNER_ID", "1221179170"))
+OWNER_ID = int(os.getenv("OWNER_ID", "7879370524"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002125842026 -1002053287763 -1002044997044 -1002022625433 -1002050846285 -1002400165299 -1002416419679 -1001473548283").split()))
 
